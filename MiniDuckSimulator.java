@@ -26,5 +26,11 @@ class MiniDuckSimulator {
     cd.performQuack();
     cd.swim();
 
+    System.out.println("===================");
+    Duck ud = new UglyDuck();
+    ud.display();
+    ud.performQuack();
+    ud.swim();
+
   }
 }
