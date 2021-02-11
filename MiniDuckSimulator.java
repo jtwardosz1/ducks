@@ -3,6 +3,12 @@ class MiniDuckSimulator {
   public static void main(String args[]) {
 
     System.out.println("===================");
+    Duck g = new Goose();
+    g.display();
+    g.performQuack();
+    g.swim();
+
+    System.out.println("===================");
     Duck rhd = new RedheadDuck();
     rhd.display();
     rhd.performQuack();
