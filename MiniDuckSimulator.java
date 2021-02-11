@@ -26,5 +26,11 @@ class MiniDuckSimulator {
     cd.performQuack();
     cd.swim();
 
+    System.out.println("===================");
+    Duck pd = new PoliceDuck();
+    pd.display();
+    pd.performQuack();
+    pd.swim();
+
   }
 }
