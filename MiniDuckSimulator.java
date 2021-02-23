@@ -32,5 +32,13 @@ class MiniDuckSimulator {
     pd.performQuack();
     pd.swim();
 
+    System.out.println("====================");
+    Duck mmd = new MyDuck();
+    mmd.display();
+    mmd.performQuack();
+    mmd.swim();
+
+
+
   }
 }
