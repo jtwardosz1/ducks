@@ -38,7 +38,5 @@ class MiniDuckSimulator {
     mmd.performQuack();
     mmd.swim();
 
-
-
   }
 }
